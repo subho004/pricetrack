@@ -1,0 +1,55 @@
+// styles.scss
+
+.coin-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .heading-container {
+    display: flex;
+    justify-content: center; /* Adjust as needed */
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  h3.heading {
+    font-weight: bold;
+    color: #007bff;
+    font-family: "Arial", sans-serif;
+    margin: 0; /* Reset margin to remove default spacing */
+  }
+
+  .gap {
+    margin: 0 10px; /* Add a gap between "Coins" and "Price" */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+
+      strong {
+        font-weight: bold;
+        color: #007bff;
+        font-family: "Arial", sans-serif;
+      }
+
+      .price {
+        margin-left: 5px;
+        color: #28a745;
+        font-family: "Verdana", sans-serif;
+      }
+    }
+  }
+}
